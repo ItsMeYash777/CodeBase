@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Log Start of Deployment
-        run: echo "Test deployment started..."
+        run: echo "Test deployment started...."
 
       - name: Simulate Deployment Delay
         run: sleep 15
