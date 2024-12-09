@@ -29,7 +29,7 @@ jobs:
           script: |
             const response = await github.rest.actions.createWorkflowDispatch({
               owner: 'ItsMeYash777',
-              repo: 'automation-repo',  
+              repo: 'cypress-Automation',  
               workflow_id: 'deploy.yml', 
               ref: 'main',  
             });
