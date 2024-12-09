@@ -28,7 +28,7 @@ jobs:
         with:
           script: |
             const response = await github.rest.actions.createWorkflowDispatch({
-              owner: ItsMeYash777,
+              owner: 'ItsMeYash777',
               repo: 'automation-repo',  
               workflow_id: 'deploy.yml', 
               ref: 'main',  
